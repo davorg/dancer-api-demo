@@ -65,4 +65,7 @@ plugins:
   DBIC:
     default:
       dsn: dbi:SQLite:dbname=apidemo.db
+      schema_class: "APIDemo::Schema"
+      options:
+        sqlite_unicode: 1 
 
