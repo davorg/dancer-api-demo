@@ -13,6 +13,7 @@ Check out the code
 
     $ git clone https://github.com/davorg/dancer-api-demo.git
     
+### version 1 
 Change directoy
 
     $ cd dancer-api-demo
@@ -20,9 +21,19 @@ Change directoy
 Install required modules
 
     $ cpanm --installdeps APIDemo
-    
-Start the local server
 
+### version 2
+Change directoy
+
+    $ cd dancer-api-demo/APIDemo
+    
+Install required modules
+
+    $ carton install
+    
+Move database to `dancer-api-demo/APIDemo`
+
+## Start the local server
     $ plackup APIDemo/bin/app.psgi
     
 Open a brower on http://localhost:5000/
