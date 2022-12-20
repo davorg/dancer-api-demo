@@ -14,7 +14,7 @@ Check out the code
     $ git clone https://github.com/davorg/dancer-api-demo.git
     
 ### version 1 
-Change directoy
+Change directory
 
     $ cd dancer-api-demo
     
@@ -23,7 +23,7 @@ Install required modules
     $ cpanm --installdeps APIDemo
 
 ### version 2
-Change directoy
+Change directory
 
     $ cd dancer-api-demo/APIDemo
     
